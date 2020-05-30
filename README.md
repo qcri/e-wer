@@ -9,13 +9,13 @@
 - We estimate the error rate directly without having access to the ASR results nor the ASR system – *no-box* WER estimation 
 
 
-| System | Pearson | RSME | e-WER | 
+| System | Pearson | RSME | e-WER (ref WER=28.5) | 
 | ------ | ------ |  ------ | ------ |
-| e-WER Glass Box | 0.82 | 0.17 | 27.3 |
-| e-WER Black Box | 0.68 | 0.19 | 35.8
-| e-WER2 Glass Box | 0.74 |  0.19.| 27.9 
-| e-WER2 Black Box | 0.66 |  0.21 | 30.9 | 
-| e-WER No Box| 0.56 | 0.24 | 30.9
+| e-WER Glass Box | 0.82 | 0.17 | 27.3% |
+| e-WER Black Box | 0.68 | 0.19 | 35.8% |
+| e-WER2 Glass Box | 0.74 |  0.19.| 27.9% |
+| e-WER2 Black Box | 0.66 |  0.21 | 30.9% | 
+| e-WER No Box| 0.56 | 0.24 | 30.9% |
 
 ## Citation
 
