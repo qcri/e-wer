@@ -23,15 +23,15 @@ x=(np.arange(1,ref.size+1))
 
 ax = plt.subplot(111)
  
-plt.plot(x, ref, color='r',label='reference')
+plt.plot(x, ref, color='red',label='reference')
 
-plt.plot(x, wer_glass,color='m',label='e-WER glass-box')
-plt.plot(x, wer_black, color='b',label='e-WER black-box')
+plt.plot(x, wer_glass,color='green',label='e-WER glass-box')
+plt.plot(x, wer_black, color='cyan',label='e-WER black-box')
 
 
-plt.plot(x, wer2_glass,color='m',label='e-WER2 glass-box')
-plt.plot(x, wer2_black, color='b',label='e-WER2 black-box')
-plt.plot(x, wer2_no,color='k',label='e-WER2 no-box')
+plt.plot(x, wer2_glass,color='magenta',label='e-WER2 glass-box')
+plt.plot(x, wer2_black, color='blue',label='e-WER2 black-box')
+plt.plot(x, wer2_no,color='black',label='e-WER2 no-box')
     
 plt.title("SUMMA Test Aggregated WER")
 legend()
