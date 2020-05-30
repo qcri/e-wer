@@ -1,9 +1,22 @@
-# Word Error Rate Estimation e-WER
+# Word Error Rate Estimation Without ASR Output: e-WER2
 
-This code and date here reflect the work described in the ACL'2018 paper on word error rate estimation e-wer.
+  This is the second version of e-WER (e-WER2).
 
-It also contains a results for predicted WER using the glass-box features (using speech decoder features) and 
-back box features (exeluding speech decoder features).
+# New Features!
+
+- An end-to-end multistream architecture to predictthe WER per sentence using language-independent phonotactic features.
+- Our novel system is able to learn acoustic-lexical embeddings 
+- We estimate the error rate directly without having access to the ASR results nor the ASR system – *no-box* WER estimation 
+
+
+| System | Pearson | RSME | e-WER | 
+| ------ | ------ |  ------ | ------ |
+| e-WER Glass Box | 0.82 | 0.17 | 27.3 |
+| e-WER Black Box | 0.68 | 0.19 | 35.8
+| e-WER2 Glass Box | 0.74 |  0.19.| 27.9 
+| e-WER2 Black Box | 0.66 |  0.21 | 30.9 | 
+| e-WER No Box| 0.56 | 0.24 | 30.9
+
 ## Citation
 
 This data and the reported results are described in [this](http://aclweb.org/anthology/P18-2004) paper:
