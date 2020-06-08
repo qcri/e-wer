@@ -10,9 +10,9 @@ wer_glass= np.load("./results/dev_mgb2_eWER_glass_box_pred_agg.npy")
 wer_black= np.load("./results/dev_mgb2_eWER_black_box_pred_agg.npy")
 
 
-wer2_glass= np.load("./results/dev_mgb2_eWER2_black_box_dnn_pred_agg.npy")
-wer2_black= np.load("./results/dev_mgb2_eWER2_glass_box_dnn_pred_agg.npy")
-wer2_no= np.load("./results/dev_mgb2_eWER2_no_box_dnn_pred_agg.npy")
+wer2_glass= np.load("./results/dev_mgb2_eWER2_black_box_dnn_cnn_pred_agg.npy")
+wer2_black= np.load("./results/dev_mgb2_eWER2_glass_box_dnn_cnn_pred_agg.npy")
+wer2_no= np.load("./results/dev_mgb2_eWER2_no_box_dnn_cnn_pred_agg.npy")
 
 ref= np.load("./results/dev_mgb2_eWER2_glass_box_cnn_ref_agg.npy")
 

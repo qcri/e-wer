@@ -27,15 +27,18 @@ time python scripts/train_ewer_black_box.py &> log/ewer_black_box.log
 #5) e-wer2 glass box 
 time python scripts/train_ewer2_glass_box_dnn.py &> log/ewer2_glass_box_dnn.log 
 time python scripts/train_ewer2_glass_box_cnn.py &> log/ewer2_glass_box_cnn.log 
+time python scripts/train_ewer2_glass_box_dnn_cnn.py &> log/ewer2_glass_box_dnn_cnn.log
 
 
 #6) e-wer2 black box 
 time python scripts/train_ewer2_black_box_dnn.py &> log/ewer2_black_box_dnn.log 
 time python scripts/train_ewer2_black_box_cnn.py &> log/ewer2_black_box_cnn.log 
+time python scripts/train_ewer2_black_box_dnn_cnn.py &> log/ewer2_black_box_dnn_cnn.log
 
 #7) e-wer2 no box 
 time python scripts/train_ewer2_no_box_dnn.py &> log/ewer2_no_box_dnn.log 
 time python scripts/train_ewer2_no_box_cnn.py &> log/ewer2_no_box_cnn.log 
+time python scripts/train_ewer2_no_box_dnn_cnn.py &> log/ewer2_no_box_dnn_cnn.log
 
 
 #8) plot results 
