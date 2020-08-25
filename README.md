@@ -22,14 +22,14 @@ An end-to-end multistream based regression model to predict the WER per sentence
 
 We combine the four streams: lexical, phonotactic, acoustics and numerical features into a single end-to-end network to estimate word error rate directly. We jointly train the multistream network and their final hidden layers are concatenated to obtain a joint feature space in which another fully connected layer to estimate the WER directly. 
 
-<img align="center" width="400" src="https://afs.qcri.org/images/ewer2.png">
+<img align="center" width="400" src="https://github.com/qcri/e-wer/blob/e-wer2/images/ewer2.png">
 
 # Results
 Test set cumulative WER over all sentences X-axis is duration in hours and Y-axis is WER in %.
 
-<img align="center" width="400" src="https://afs.qcri.org/images/summa_results.png">
+<img align="center" width="400" src="https://github.com/qcri/e-wer/blob/e-wer2/images/summa_results.png">
 
-<img align="center" width="400" src="https://afs.qcri.org/images/mgb2_results.png">
+<img align="center" width="400" src="https://github.com/qcri/e-wer/blob/e-wer2/images/mgb2_results.png">
 
 
 ## Citation
@@ -39,13 +39,12 @@ This data and the reported results are described in [INTERSPEECH 2020](https://a
 ```bib
 @InProceedings{,
     author={Ali, Ahmed and Renals, Steve},
-      title={Word Error Rate Estimation for Speech Recognition: e-WER},
-      booktitle={ACL},
-      year={2018}, 
-}
-@InProceedings{,
-    author={Ali, Ahmed and Renals, Steve},
       title={Word Error Rate Estimation Without ASR Output: e-WER2},
       booktitle={INTERSPEECH},
       year={2020}, 
-}
+
+ @InProceedings{,
+    author={Ali, Ahmed and Renals, Steve},
+      title={Word Error Rate Estimation for Speech Recognition: e-WER},
+      booktitle={ACL},
+      year={2018}, 
