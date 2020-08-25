@@ -20,7 +20,7 @@
 # Model definition
 An end-to-end multistream based regression model to predict the WER per sentence.
 
-We combine the four streams: lexical, phonotactic, acoustics and numerical features into a single end-to-end network to estimate word error rate directly. We jointly train the multistream network and their final hidden layers are concatenated to obtain a joint feature space in which another fully connected layer to estimate the WER directly. 
+We combine four streams: lexical, phonotactic, acoustics and numerical features into a single end-to-end network to estimate word error rate directly. We jointly train the multistream network to obtain a joint feature space in which another fully connected layer to estimate the WER directly. 
 
 <img align="center" width="400" src="https://github.com/qcri/e-wer/blob/e-wer2/images/ewer2.png">
 
@@ -34,7 +34,7 @@ Test set cumulative WER over all sentences X-axis is duration in hours and Y-axi
 
 ## Citation
 
-This data and the reported results are described in [INTERSPEECH 2020](https://arxiv.org/pdf/2008.03403.pdf) and [ACL 2018](http://aclweb.org/anthology/P18-2004) papers:
+More details about this work can be found in [INTERSPEECH 2020](https://arxiv.org/pdf/2008.03403.pdf) and [ACL 2018](http://aclweb.org/anthology/P18-2004) papers:
 
 ```bib
 @InProceedings{,
